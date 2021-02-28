@@ -1,0 +1,33 @@
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro > button {
+    margin-left: 1rem;
+}
+
+.green {
+    color: green;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
