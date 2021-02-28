@@ -1,0 +1,19 @@
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro > button {
+ margin-left: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
