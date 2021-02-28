@@ -10,10 +10,18 @@ p {
 }
 
 .intro > button {
- margin-left: 1rem;
+    margin-left: 1rem;
+}
+
+.green {
+    color: green;
 }
 
 .row {
     display: flex;
     flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
 }
