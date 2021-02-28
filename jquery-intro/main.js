@@ -1,12 +1,12 @@
 const $button = $('button');
 const $colorText = $('p');
-const $getWeatherButton = $('#weather-button');
+const $ajaxButton = $('#weather-button');
 
 $button.on('click', () => {
     $colorText.toggleClass('green');
 });
 
-$getWeatherButton.on('click', () => {
+$ajaxButton.on('click', () => {
     $.ajax({
         url: 'https://pokeapi.co/api/v2/berry/1',
         success: (res) => {
