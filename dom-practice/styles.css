@@ -4,7 +4,22 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #333;
+    border-bottom: 2px solid #333;
+    color: #eee;
+    background-color: #555;
+}
+
+section {
+    border-bottom: 1px solid #555;
+    padding: 2rem 0rem;
+}
+
+.hot-zone {
+    text-align: center;
+}
+
+.hot-zone > p {
+    margin: 0rem 0rem 1rem 0rem;
 }
 
 .row {
