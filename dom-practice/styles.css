@@ -14,11 +14,11 @@ section {
     padding: 2rem 0rem;
 }
 
-.hot-zone {
+.click-counter {
     text-align: center;
 }
 
-.hot-zone > p {
+.click-counter > p {
     margin: 0rem 0rem 1rem 0rem;
 }
 
