@@ -32,6 +32,10 @@ section {
     align-items: center;
 }
 
+.on {
+    justify-content: flex-end;
+}
+
 .inner-border {
     width: 90%;
     height: 85%;
@@ -47,6 +51,7 @@ section {
     border: 1px solid #333;
     border-radius: 50%;
     margin: 0.2rem;
+    cursor: pointer;
 }
 
 .row {
@@ -55,4 +60,8 @@ section {
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
 }
